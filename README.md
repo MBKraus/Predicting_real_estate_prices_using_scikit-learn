@@ -46,40 +46,36 @@
 
 #### Scatter plot - Surface vs. Asking Price (EUR)
 
-![alt text](https://github.com/Weesper1985/Python_Portfolio__VaR_Tool/blob/master/Tab11.png)
+![alt text](https://github.com/Weesper1985/Predict_real_estate_prices/blob/master/Scatter.png)
 
 #### OLS - Predicted prices vs. True price (EUR)
 
-![alt text](https://github.com/Weesper1985/Python_Portfolio__VaR_Tool/blob/master/Tab11.png)
+![alt text](https://github.com/Weesper1985/Predict_real_estate_prices/blob/master/OLS.png)
 
 #### KNN Regression - Validation curve
 
-![alt text](https://github.com/Weesper1985/Python_Portfolio__VaR_Tool/blob/master/Tab11.png)
+![alt text](https://github.com/Weesper1985/Predict_real_estate_prices/blob/master/KNN.png)
 
 #### Lasso Regression (Alpha = 0.25) - Predicted prices vs. True price (EUR)
 
-![alt text](https://github.com/Weesper1985/Python_Portfolio__VaR_Tool/blob/master/Tab11.png)
+![alt text](https://github.com/Weesper1985/Predict_real_estate_prices/blob/master/Lasso.png)
 
 #### Ridge Regression - Mean Test Score vs. Alpha
 
-![alt text](https://github.com/Weesper1985/Python_Portfolio__VaR_Tool/blob/master/Tab11.png)
+![alt text](https://github.com/Weesper1985/Predict_real_estate_prices/blob/master/Ridge.png)
 
 #### Polynomial Regression (degrees = 4) - Predicted prices vs. True price (EUR)
 
-![alt text](https://github.com/Weesper1985/Python_Portfolio__VaR_Tool/blob/master/Tab11.png)
+![alt text](https://github.com/Weesper1985/Predict_real_estate_prices/blob/master/Poly.png)
 
 #### Random Forest Regression (n_estim=20, max_depth= None, max_feat=4) - Predicted prices vs. True price (EUR)
 
-![alt text](https://github.com/Weesper1985/Python_Portfolio__VaR_Tool/blob/master/Tab11.png)
+![alt text](https://github.com/Weesper1985/Predict_real_estate_prices/blob/master/RandomForest.png)
 
 #### Support Vector Regression (kernel='linear', gamma = 0.001, C= 10) - Predicted prices vs. True price (EUR)
 
-![alt text](https://github.com/Weesper1985/Python_Portfolio__VaR_Tool/blob/master/Tab11.png)
-
-#### Decision Tree Regression (max_depth=4, min_samples_leaf=6)  - Predicted prices vs. True price (EUR)
-
-![alt text](https://github.com/Weesper1985/Python_Portfolio__VaR_Tool/blob/master/Tab11.png)
+![alt text](https://github.com/Weesper1985/Predict_real_estate_prices/blob/master/SVR.png)
 
 #### Neural Network MLP Regression (layer =[3,3], alpha=5, solv=lbfgs) (max_depth=4, min_samples_leaf=6)  - Predicted prices vs. True price (EUR)
 
-![alt text](https://github.com/Weesper1985/Python_Portfolio__VaR_Tool/blob/master/Tab11.png)
+![alt text](https://github.com/Weesper1985/Predict_real_estate_prices/blob/master/Neural.png)
