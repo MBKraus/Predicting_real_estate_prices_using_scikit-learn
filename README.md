@@ -1,7 +1,7 @@
 
 ## Predicting Amsterdam house / real estate prices using Linear Regression, KNN-, Lasso-, Ridge-, Polynomial-, Support Vector (SVR)-, Decision Tree-, Random Forest-, and Neural Network MLP Regression.
 
-## Approach:
+### Approach:
 
 - load Pandas DataFrame containing (Dec-17) housing data retrieved by means of the [following scraper](https://github.com/Weesper1985/Funda-Scraper), supplemented with longitude and latitude coordinates mapped to zip code (via [GeoPy](https://geopy.readthedocs.io/en/1.10.0/#)
 - do some simple data exploration / visualisation
@@ -12,7 +12,7 @@
 - fit the model using GridSearchCV's optimal parameters
 - evaluate estimator performance by means of 10 fold 'shuffled' cross-validation
 
-## Packages required
+### Packages required
 
 - [Python 3.5.1](https://www.python.org/downloads/release/python-351/)
 - [Matplotlib](https://matplotlib.org/)
@@ -20,7 +20,7 @@
 - [Numpy](https://docs.scipy.org/doc/)
 - [scikit-learn](http://scikit-learn.org/stable/)
 
-## Results along (Dec-17) Amsterdam house / real estate price data retrieved by means of the [following scraper](https://github.com/Weesper1985/Funda-Scraper)
+### Results along (Dec-17) Amsterdam house / real estate price data retrieved by means of the [following scraper](https://github.com/Weesper1985/Funda-Scraper)
 
 #### Sample data input (Pandas DataFrame)
 ```
