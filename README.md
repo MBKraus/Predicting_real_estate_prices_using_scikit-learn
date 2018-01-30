@@ -1,5 +1,5 @@
 
-## Predicting Amsterdam house / real estate prices using Linear Regression, KNN Regression, Lasso Regression, Ridge Regression, Polynomial Regression, Support Vector Regression (SVR), Decision Tree Regression, Random Forest Regression, and a Neural Network MLP Regression.
+## Predicting Amsterdam house / real estate prices using Linear Regression, KNN-, Lasso-, Ridge-, Polynomial-, Support Vector (SVR)-, Decision Tree-, Random Forest-, and Neural Network MLP Regression.
 
 ## Approach:
 
