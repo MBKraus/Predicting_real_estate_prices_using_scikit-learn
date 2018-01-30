@@ -3,7 +3,7 @@
 
 ### Approach:
 
-- load Pandas DataFrame containing (Dec-17) housing data retrieved by means of the [following scraper](https://github.com/Weesper1985/Funda-Scraper), supplemented with longitude and latitude coordinates mapped to zip code (via [GeoPy](https://geopy.readthedocs.io/en/1.10.0/#)
+- load Pandas DataFrame containing (Dec-17) housing data retrieved by means of the [following scraper](https://github.com/Weesper1985/Funda-Scraper), supplemented with longitude and latitude coordinates mapped to zip code (via [GeoPy](https://geopy.readthedocs.io/en/1.10.0/#))
 - do some simple data exploration / visualisation
 - remove non-numeric data, NaNs, outliers and normalise data
 - define explanatory variables (surface, rooms, latitude, longitude) and independent variable (price EUR)
@@ -33,15 +33,15 @@
 ```
 #### Scores (10 fold 'shuffled' cross-validation - Rsquared)
 
-- Random Forest Regression (n_estim=20, max_depth= None, max_feat=4}    0.866
-- Polynomial Regression (degrees =4)                                    0.810
-- Decision Tree Regression (max_depth=4, min_samples_leaf=6)            0.737
-- Neural Network MLP Regression (layer =[3,3], alpha=5, solv=lbfgs)     0.721
-- KNN Regression (n-neighbors = 15)                                     0.704
-- Ordinary Least-Squares Regression:                                    0.695
-- Ridge Regression (alpha = 0.1)                                        0.695
-- Support Vector Regression (kernel='linear', gamma = 0.001, C= 10)     0.690
-- Lasso Regression (alpha = 0.25)                                       0.614
+- Random Forest Regression (n_estim=20, max_depth= None, max_feat=4}		*0.866*
+- Polynomial Regression (degrees=4)													*0.810*
+- Decision Tree Regression (max_depth=4, min_samples_leaf=6)            *0.737*
+- Neural Network MLP Regression (layer =[3,3], alpha=5, solv=lbfgs)     *0.721*
+- KNN Regression (n-neighbors = 15)                                     *0.704*
+- Ordinary Least-Squares Regression:                                    *0.695*
+- Ridge Regression (alpha = 0.1)                                        *0.695*
+- Support Vector Regression (kernel='linear', gamma = 0.001, C= 10)     *0.690*
+- Lasso Regression (alpha = 0.25)                                       *0.614*
 
 
 #### Scatter plot - Surface vs. Asking Price (EUR)
