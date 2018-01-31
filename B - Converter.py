@@ -41,4 +41,6 @@ for x in data['zipcode_new'].unique():
 data["latitude"] = data["zipcode_new"].map(lambda x: latcoordinates[x])
 data["longitude"] = data["zipcode_new"].map(lambda x: loncoordinates[x])
 
+# Export
+
 data.to_csv("Overview_new.csv", sep=";", encoding='utf-8')
