@@ -22,30 +22,37 @@
 
 ## Scores (5 fold nested 'shuffled'cross-validation - Rsquared)
 
-- XGBoost Regression											                                            
-  Parameters: max_depth: 5, min_child_weight: 6, gamma: 0.01, colsample_bytree: 1, subsample: 0.7
-  Score: 0.887	
-- Random Forest Regression        									                                   
-  Parameters: max_depth: 6, max_feat: None, n_estimators: 10
-  Score:  0.839
-- Polynomial Regression                                							
-  Parameters: degrees: 2
-  Score: 0.731
-- Neural Network MLP Regression 				     					
-  Parameters: act: relu, alpha: 0.01, hidden_layer_size: (10,10), learning_rate: invscal
-  Score: 0.715
-- KNN Regression                                      							
-  Parameters: n_neighbours: 10
-  Score: 0.711
-- Ordinary Least-Squares Regression:                                    				
-  Parameters: None
-  Score: 0.694
-- Ridge Regression 		                                        				
-  Parameters: alpha: 0.01
-  Score: 0.694
-- Lasso Regression                                        	 					
-  Parameters: alpha 0.01
-  Score: 0.693
+**1. XGBoost Regression**											                                            
+  * Parameters: max_depth: 5, min_child_weight: 6, gamma: 0.01, colsample_bytree: 1, subsample: 0.7
+  * Score: 0.887	
+
+**2. Random Forest Regression**        									                                   
+  * Parameters: max_depth: 6, max_feat: None, n_estimators: 10
+  * Score:  0.839
+
+**3. Polynomial Regression**                                							
+  * Parameters: degrees: 2
+  * Score: 0.731
+  
+**4. Neural Network MLP Regression** 				     					
+  * Parameters: act: relu, alpha: 0.01, hidden_layer_size: (10,10), learning_rate: invscal
+  * Score: 0.715
+  
+**5. KNN Regression**                                      							
+  * Parameters: n_neighbours: 10
+  * Score: 0.711
+  
+**6. Ordinary Least-Squares Regression**                                    				
+  * Parameters: None
+  * Score: 0.694
+  
+**7. Ridge Regression** 		                                        				
+  * Parameters: alpha: 0.01
+  * Score: 0.694
+  
+**8. Lasso Regression**                                        	 					
+  * Parameters: alpha 0.01
+  * Score: 0.693
 
 ### Sample data input (Pandas DataFrame)
 ```
@@ -59,37 +66,37 @@
 
 #### Scatter plot - Surface vs. Asking Price (EUR)
 
-![alt text](https://github.com/Weesper1985/Python_Portfolio__VaR_Tool/blob/master/Scatter.png)
+![alt text](https://github.com/Weesper1985/Predicting_real_estate_prices_using_scikit-learn/blob/master/Scatter.png)
 
 #### XGBoost - Predicted prices vs. True price (EUR)
 
-![alt text](https://github.com/Weesper1985/Python_Portfolio__VaR_Tool/blob/master/XGB.png)
+![alt text](https://github.com/Weesper1985/Predicting_real_estate_prices_using_scikit-learn/blob/master/XGB.png)
 
 #### Random Forest - Predicted prices vs. True price (EUR)
 
-![alt text](https://github.com/Weesper1985/Python_Portfolio__VaR_Tool/blob/master/Forest.png)
+![alt text](https://github.com/Weesper1985/Predicting_real_estate_prices_using_scikit-learn/blob/master/Forest.png)
 
 #### Polynomial - Predicted prices vs. True price (EUR)
 
-![alt text](https://github.com/Weesper1985/Python_Portfolio__VaR_Tool/blob/master/Poly.png)
+![alt text](https://github.com/Weesper1985/Predicting_real_estate_prices_using_scikit-learn/blob/master/Poly.png)
 
 #### Neural Network MLP - Predicted prices vs. True price (EUR)
 
-![alt text](https://github.com/Weesper1985/Python_Portfolio__VaR_Tool/blob/master/MLP.png)
+![alt text](https://github.com/Weesper1985/Predicting_real_estate_prices_using_scikit-learn/blob/master/MLP.png)
 
 #### KNN - Predicted prices vs. True price (EUR)
 
-![alt text](https://github.com/Weesper1985/Python_Portfolio__VaR_Tool/blob/master/KNN.png)
+![alt text](https://github.com/Weesper1985/Predicting_real_estate_prices_using_scikit-learn/blob/master/KNN.png)
 
 #### OLS - Predicted prices vs. True price (EUR)
 
-![alt text](https://github.com/Weesper1985/Python_Portfolio__VaR_Tool/blob/master/OLS.png)
+![alt text](https://github.com/Weesper1985/Predicting_real_estate_prices_using_scikit-learn/blob/master/OLS.png)
 
 #### Lasso - Predicted prices vs. True price (EUR)
 
-![alt text](https://github.com/Weesper1985/Python_Portfolio__VaR_Tool/blob/master/Lasso.png)
+![alt text](https://github.com/Weesper1985/Predicting_real_estate_prices_using_scikit-learn/blob/master/Lasso.png)
 
 #### Ridge - Predicted prices vs. True price (EUR)
 
-![alt text](https://github.com/Weesper1985/Python_Portfolio__VaR_Tool/blob/master/Ridge.png)
+![alt text](https://github.com/Weesper1985/Predicting_real_estate_prices_using_scikit-learn/blob/master/Ridge.png)
 
