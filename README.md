@@ -22,22 +22,30 @@
 
 ## Scores (5 fold nested 'shuffled'cross-validation - Rsquared)
 
-- XGBoost Regression											0.887	
+- XGBoost Regression											                                            
   Parameters: max_depth: 5, min_child_weight: 6, gamma: 0.01, colsample_bytree: 1, subsample: 0.7
-- Random Forest Regression        									0.839
+  Score: 0.887	
+- Random Forest Regression        									                                   
   Parameters: max_depth: 6, max_feat: None, n_estimators: 10
-- Polynomial Regression                                							0.731
+  Score:  0.839
+- Polynomial Regression                                							
   Parameters: degrees: 2
-- Neural Network MLP Regression 				     					0.715
+  Score: 0.731
+- Neural Network MLP Regression 				     					
   Parameters: act: relu, alpha: 0.01, hidden_layer_size: (10,10), learning_rate: invscal
-- KNN Regression                                      							0.711
+  Score: 0.715
+- KNN Regression                                      							
   Parameters: n_neighbours: 10
-- Ordinary Least-Squares Regression:                                    				0.694
+  Score: 0.711
+- Ordinary Least-Squares Regression:                                    				
   Parameters: None
-- Ridge Regression 		                                        				0.694
+  Score: 0.694
+- Ridge Regression 		                                        				
   Parameters: alpha: 0.01
-- Lasso Regression                                        	 					0.693
+  Score: 0.694
+- Lasso Regression                                        	 					
   Parameters: alpha 0.01
+  Score: 0.693
 
 ### Sample data input (Pandas DataFrame)
 ```
