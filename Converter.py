@@ -19,7 +19,7 @@ data['price_new'] = data['price'].str.replace(' von', '')
 
 # Retrieve lat lon coordinates (mapped to zipcode)
 
-g = geocoders.GoogleV3(api_key='AIzaSyCBsIw9-eLkQAZFKZwNFihHfi-1I8hD-cg')
+g = geocoders.GoogleV3(api_key='your API-key')
 
 latcoordinates = {}
 loncoordinates = {}
