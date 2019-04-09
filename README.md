@@ -6,7 +6,7 @@
 - do some simple data exploration / visualisation
 - remove non-numeric data, NaNs, and outliers (everything above 3 x standard dev of y)
 - define explanatory variables (surface,latitude,and longitude) and independent variable (price EUR)
-- split the data in train and test sets 
+- split the data in train and test sets (+ normalise independent variables where required) 
 - find the optimal model parameters using [scikit-learn](http://scikit-learn.org/stable/)'s GridSearchCV
 - fit the model using GridSearchCV's optimal parameters
 - evaluate estimator performance by means of 5 fold 'shuffled' nested cross-validation
